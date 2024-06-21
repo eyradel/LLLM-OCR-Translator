@@ -14,7 +14,7 @@ from langchain.memory import ConversationBufferMemory
 from dotenv import load_dotenv,find_dotenv
 
 load_dotenv(find_dotenv())
-# os.environ['API_KEY']==st.secrets['API_KEY']
+os.environ['API_KEY']==st.secrets['API_KEY']
 key = os.environ.get("API_KEY")
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credentials.json'
 from config import OPENAI_KEY
