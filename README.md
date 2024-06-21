@@ -1,1 +1,1 @@
-# LLLM-OCR-Translator
+# OCR
